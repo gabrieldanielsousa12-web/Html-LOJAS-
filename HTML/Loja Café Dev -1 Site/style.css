@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #304b3a;
+    background-color: #f7f1e3;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #2f4f3a;
+    color: #f7f1e3;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #c8a96b;
+}
+
+.cabecalho h1 {
+    font-size: 42px;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+
+/* Menu */
+.menu {
+    background-color: #20352a;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu a {
+    color: #f7f1e3;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #d6bd83;
+}
+
+/* Seção inicial */
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: #e8ddc7;
+}
+
+.hero h2,
+.sobre h2,
+.produtos h2,
+.contato h2,
+.citacao h2 {
+    color: #2f4f3a;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #587a61;
+    color: #f7f1e3;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.botao:hover {
+    background-color: #3e5c47;
+}
+
+/* Imagem de destaque */
+.imagem-cafe {
+    text-align: center;
+    padding: 40px;
+    background-color: #f7f1e3;
+}
+
+.imagem-cafe img {
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #78906f;
+}
+
+/* Sobre */
+.sobre {
+    padding: 60px 20px;
+    background-color: #e8ddc7;
+    text-align: center;
+}
+
+.sobre-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.sobre-img {
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #78906f;
+    flex-shrink: 0;
+}
+
+.sobre-texto {
+    flex: 1;
+    min-width: 250px;
+}
+
+.sobre-texto p {
+    margin-bottom: 12px;
+}
+
+/* Citação */
+.citacao {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f7f1e3;
+}
+
+.citacao-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.img-citacao {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;object-position: center;
+    border-radius: 8px;
+    border: 1px solid #78906f;
+    flex-shrink: 0;
+}
+
+.texto-citacao {
+    flex: 1;
+    min-width: 250px;
+}
+
+.citacao blockquote,
+.texto-citacao {
+    font-size: 22px;
+    font-style: italic;
+    color: #587a61;
+    margin-bottom: 10px;
+}
+
+.texto-citacao p {
+    margin-bottom: 10px;
+}
+
+.texto-citacao p:last-child {
+    margin-bottom: 0;
+}
+
+.autoria {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+
+/* Produtos */
+.produtos {
+    padding: 60px 20px;
+    background-color: #e8ddc7;
+    text-align: center;
+}
+
+.produtos-img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #78906f;
+    margin-top: 20px;
+}
+
+/* Contato */
+.contato {
+    padding: 60px 20px;
+    background-color: #f7f1e3;
+    text-align: center;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #20352a;
+    color: #f7f1e3;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
